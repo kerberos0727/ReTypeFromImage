@@ -49,7 +49,7 @@ const RetypeComponent = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-[20px]">
             <div className="relative w-[500px]">
                 <img src={retypeImg} className="w-full" alt="logo"></img>
-                <div ref={ref} className="absolute top-0 z-[-1] flex flex-col pt-[30px]">
+                <div ref={ref} className="absolute top-0 z-[-2] flex flex-col pt-[30px]">
                     <div className="flex  justify-center">
                         <h1>{textTitle}</h1>
                     </div>
@@ -62,6 +62,8 @@ const RetypeComponent = () => {
                     <div className="w-[500px] text-[17px]">
                         {textContent}
                     </div>
+                </div>
+                <div className="absolute inset-0 z-[-1] bg-white">
                 </div>
             </div>
 
