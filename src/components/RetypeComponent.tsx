@@ -85,7 +85,7 @@ const RetypeComponent = () => {
                         }}
                     />
                 </div>
-                <Pdf targetRef={ref} filename="code-example.pdf" options={options} x={0.5} y={.5} scale={1.4}>
+                <Pdf targetRef={ref} filename="retyped.pdf" options={options} x={0.5} y={.5} scale={1.4}>
                     {({ toPdf }: any) =>
                         <div className="flex justify-center mt-[30px]">
                             <button className="w-[100px] h-[40px] cursor-pointer"
